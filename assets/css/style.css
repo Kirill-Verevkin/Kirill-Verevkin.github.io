@@ -3,13 +3,29 @@ height: 100%;
 background: linear-gradient(45deg, #691a52, #C5DDE8);
 }
 
+a {
+    color: #946a6a;
+}
+.btn-warning {
+    margin: 5%;
+    margin-top: 0%;
+}
+.selected {
+    background-color: #cec4c4;
+}
+
+a:hover {
+    color: #946a6a;
+}
+
+
 .myslide {
     height:100%;
 }
 
 .btn-warning:hover {
     color: #fff;
-    background-color: #9c86a5;
+    background-color: #6f265b;
     border-color: #5f1f59;
 }
 .btn-warning {
