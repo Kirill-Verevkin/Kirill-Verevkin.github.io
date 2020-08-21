@@ -90,6 +90,11 @@ background: linear-gradient(45deg, #691a52, #C5DDE8);
     .header {
         text-align: center;
     }
+
+    img {
+        max-height: 179px;
+        width: auto;
+    }
 }
 
 .clear {
@@ -111,9 +116,7 @@ html, body {
 }
 
 
-.hidden {
-    visibility: hidden;
-}
+
 
 .film-block img {
     width: 100%;
