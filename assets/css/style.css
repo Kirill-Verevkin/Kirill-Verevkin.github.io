@@ -95,6 +95,14 @@ background: linear-gradient(45deg, #691a52, #C5DDE8);
         max-height: 179px;
         width: auto;
     }
+
+    h2 {
+        padding-top: 12px;
+    }
+
+    .button-padding {
+        margin: 15px;
+    }
 }
 
 .clear {
