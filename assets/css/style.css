@@ -100,11 +100,12 @@ background: linear-gradient(45deg, #691a52, #C5DDE8);
         padding-top: 12px;
     }
 
-    .button-padding {
-        margin: 15px;
-    }
+ 
 }
 
+.button-padding {
+      margin: 12px;
+    }
 .clear {
     clear: both;
     height: 63px;
