@@ -6,6 +6,10 @@ background: linear-gradient(45deg, #691a52, #C5DDE8);
 a {
     color: #946a6a;
 }
+img {
+    border: 5px solid #dad7d5;
+    border-radius: 5px;
+}
 .btn-warning {
     margin: 5%;
     margin-top: 0%;
@@ -188,15 +192,15 @@ html, body {
 }
 
 .info-block {
-	font-size: 120%;
+    font-size: 120%;
 }
 
 .info-block .badge {
-	font-size: 80%;
+    font-size: 80%;
 }
 
 .info-block span{
-	margin-right: 3%;
+    margin-right: 3%;
 }
 
 .form-group>textarea.form-control {
