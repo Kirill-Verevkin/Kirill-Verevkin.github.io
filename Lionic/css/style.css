@@ -1,0 +1,381 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img	{
+	max-width: 100%;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 12px;
+	line-height: 1
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+	background-color: #3172b9;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+.btn.btn-big {
+	padding: 20px 60px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Header */
+
+.header {
+	width: 98.5vw;
+	height: 140px;
+	border-bottom: 0.1px solid gainsboro;
+}
+
+
+
+.header-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.logo {
+	margin-right: auto;
+}
+
+.nav-list {
+	display: flex;
+	margin-right: 40px;
+}
+
+.nav-item {
+	font-size: 15px;
+	line-height: 1;
+}
+
+.nav-link {
+	color: #1c1c1c;
+}
+
+.nav-item.is-active .nav-link {
+	color: #3172b9 ;
+}
+
+.nav-item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.header-btn {
+	margin-left: 80px;
+}
+
+.nav-list-link {
+	color: black;
+}
+
+.nav-list-link-2 {
+	margin-right: 10px;
+}
+
+.nav-list-link-2-img {
+	margin-bottom: 2px;
+}
+
+/* Hero */
+
+
+.section-hero {
+	background-size: cover;
+	width: 98.5vw;
+	background-image: url(../img/base_10.jpg);
+}
+
+.hero-container {
+	padding-top: 120px;
+	padding-bottom: 130px;
+}
+
+.hero-content {
+	max-width: 50%;
+}
+
+.section-hero-heading {
+	margin-bottom: 20px;
+}
+
+.section-hero-description {
+	margin-bottom: 30px;
+	color: grey;
+}
+
+
+.section-hero-btn-description {
+	margin-top: 10px;
+	color: grey;
+	font-size: 11px;
+	line-height: 1;
+	text-transform: uppercase;
+	display: flex;
+}
+
+.section-hero-btn-description-text {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+/* What We Do*/
+
+.section-do {
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+
+.section-description {
+	margin-top: 25px;
+	color: grey;
+}
+
+.section-do-list {
+	display: flex;
+	margin-top: 50px;
+}
+
+
+.section-do-item {
+	flex: 1 1 25%;
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 60px;
+}
+
+.section-do-icon {
+	margin-bottom: 20px;
+}
+
+.section-do-item-description {
+	margin-top: 20px;
+	color: grey;
+}
+
+.section-do-item-1 {
+	border-top: 0.1px solid gainsboro ;
+	border-bottom: 0.1px solid gainsboro ;
+	border-right: 0.1px solid gainsboro ;
+}
+
+.section-do-item-2 {
+	border-top: 0.1px solid gainsboro ;
+	border-bottom: 0.1px solid gainsboro ;
+	border-right: 0.1px solid gainsboro ;
+	border-left: 0.1px solid gainsboro;
+}
+
+.section-do-item-3 {
+	border-top: 0.1px solid gainsboro ;
+	border-bottom: 0.1px solid gainsboro ;
+	border-right: 0.1px solid gainsboro ;
+	border-left: 0.1px solid gainsboro;
+}
+
+.section-do-item-4 {
+	border-top: 0.1px solid gainsboro ;
+	border-bottom: 0.1px solid gainsboro ;
+	border-left: 0.1px solid gainsboro;
+}
+
+.section-do-item:not(:last-child) {
+	margin-right: 30px;
+}
+
+/* Our Happy Clients */
+
+.hr {
+	border-top: 0.1px solid gainsboro;
+}
+
+.section-clients-heading {
+	padding-top: 90px;
+}
+
+.section-clients-user-description {
+	margin-top: 10px;
+	font-size: 12px;
+	color: grey;
+}
+
+.section-clients-list {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 160px;
+}
+
+.section-clients-item:not(:last-child) {
+	margin-right: 30px
+}
+
+.section-clients-item {
+	padding-top: 50px;
+	padding-right: 40px;
+	padding-left: 35px;
+}
+
+.section-clients-item-1 {
+	border-top: 0.1px solid gainsboro; 
+	border-right: 0.1px solid gainsboro;
+	border-bottom: 0.1px solid gainsboro;
+}
+
+.section-clients-item-2 {
+	border-top: 0.1px solid gainsboro; 
+	border-right: 0.1px solid gainsboro;
+	border-left: 0.1px solid gainsboro;
+	border-bottom: 0.1px solid gainsboro;
+}
+
+.section-clients-item-3 {
+	border-top: 0.1px solid gainsboro; 
+	border-left: 0.1px solid gainsboro;
+	border-bottom: 0.1px solid gainsboro;
+}
+
+.section-clients-user {
+	margin-top: 60px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+	display: flex;
+}
+
+
+.section-clients-avatar {
+	width: 65px;
+	height: 65px;
+	margin-right: 20px;
+}
+
+.section-clients-testimonial {
+	color: grey;
+}
+
+/* Contacs */
+
+.section-contacs {
+	width: 98.5vw;
+	height: 100vh;
+	padding-top: 70px;
+}
+
+.section-contacs-heading {
+	margin-bottom: 100px;
+}
+
+.section-contacs-list {
+	display: flex;
+	padding-bottom: 170px;
+}
+
+.section-contacs-icon-space {
+	margin-top: 20px;
+}
+.section-contacs-item {
+
+}
+
+.section-contacs-item:not(:last-child) {
+	margin-right: 200px;
+}
+
+.section-contacs-info {
+	margin-top: 40px;
+}
+
+.section-contacs-info-1 {
+	max-width: 250px;
+}
+
+.section-contacs-link {
+	color: grey;
+}
+
+
+/* Foooter */
+
+.footer {
+	border-top: 0.1px solid gainsboro;
+	height: 123px;
+	font-size: 14px;
+}
+
+.footer-right {
+	float: right;
+	color: grey;
+}
+
+.footer-nav {
+	display: flex;
+}
+
+.footer-left {
+	float: left;
+}
+
+.footer-copyrights {
+	position: absolute;
+ 	left: 350px ;
+ 	bottom: -2170px ;
+	color: grey;
+}
+
+.footer-logo-img {
+	margin-top: 40px;
+}
+
+.footer-nav-list {
+	margin-top: 60px; 
+	display: flex;
+}
+
+.footer-nav-item {
+	margin-right: 35px;
+}
+
+.footer-social-list {
+	margin-left: 55px;
+	margin-top: 57px;
+	display: flex;	
+	float: right;
+}
+
+.footer-social-item:not(:last-child) {
+	margin-right: 25px;
+}
+
+
