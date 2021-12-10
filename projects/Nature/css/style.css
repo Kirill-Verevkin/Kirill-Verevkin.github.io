@@ -1,0 +1,102 @@
+.admin-container {
+	        min-height: 100%;
+	        min-width: 1024px;
+	        width: 100%;
+	        height: auto;
+	        position: fixed;
+	        top: 0;
+	        left: 0;
+	margin: 0px;
+	background: url(../img/back.png) no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+}
+
+
+.header {
+	display: flex;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	margin-left: 115px;
+	margin-right: 100px;
+	color: #17856e;
+}
+
+.header a{
+	text-decoration: none;
+	color: #17856e;
+}
+
+.header-center {
+	margin: 0;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.header-contacts-items {
+	display: flex;
+}
+
+.header-contacts-item img {
+	height: 30px;
+	width: 30px;
+	margin-right: 7px;
+}
+
+
+.header-left {
+	float: left;
+}
+
+.header-nav-list {
+	display: flex;
+}
+
+.header-nav-item {
+	margin-right: 50px;
+}
+
+
+.main {
+	margin-left: 100px;
+	margin-right: 700px;
+}
+
+.H1text {
+	font-size: 34px;
+	color: #295e17;
+}
+
+.H2text {
+	font-size: 34px;
+}
+
+.description {
+	color: #007b5e;
+}
+
+.description a{
+	text-decoration: none;
+	color: black;
+}
+
+.btn {
+	margin-top:60px ;
+}
+
+.btn a {
+	text-decoration: none;
+	color: white;
+}
+
+.btn0 {
+	height: 60px;
+	width: 120px;
+	background-color: #295e17;
+	color: white;
+	font-size: 18px;
+	border: 4px solid #295e17;
+	border-radius: 25px;
+}
