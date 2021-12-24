@@ -59,30 +59,91 @@ a {
 	padding: 0px;
 	margin: 0px;
 	padding-top: 150px;
+	text-align: right;
+	float: right;
 }
 
 .H1text {
-	float: right;
-	font-size: 28px;
-	font-weight: 1000;
-}
-
-.description {
-	float: right;
-	text-align: right;
+	position:absolute;
+	right: 50px;
+	font-size: 72px;
+	font-weight:900;
+	color: rgb(39, 39, 39);
+	top: 165px;
 }
 
 .H2text {
-	float: right;
-	font-size: 24px;
-	font-weight: 1000;
+	position:absolute;
+	top: 400px;
+	right: 50px;
+	font-size: 36px;
 }
 
-.description-text {
-	max-width: 900px;
-	text-align: right;
-	float: right;
-	font-size: 12px;
-	margin-right: 0px;
+
+.description {
+	position:absolute;
+	top: 470px;
+	right: 50px;
+	font-size: 18px;
 }
 
+
+.hr-description {
+	position:absolute;
+	top: 390px;
+	right: 50px;
+	height: 30px;;
+	width: 500px;
+	background-color: rgb(0, 191, 255);
+}
+
+
+.description-a {
+	position:absolute;
+	top: 550px;
+	right: 50px;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+
+.social-menu {
+	position:absolute;
+	top: 615px;
+	right: 50px;
+	display: flex;
+}
+
+
+.social-menu img {
+	width: 32px;
+	height: 30px;
+}
+
+.social-element:not(last-child) {
+	margin-right: 7px;
+}
+
+
+.now {
+	position:absolute;
+	top: 740px;
+	right: 50px;
+	font-weight: 900;
+	display: flex;
+}
+
+.now-img {
+	aligh: center;
+}
+
+.NOW-text {	
+	color: rgb(39, 39, 39);
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+.now img {
+	width: 25px;
+	height: 23px;
+}
