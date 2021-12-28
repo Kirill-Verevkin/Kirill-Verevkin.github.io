@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;;
+    height: 100%;
+    min-width: 1024px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.first-block{
+	min-height: 100vh;
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+
+
+.nav-menu{
+    display: flex;
+    padding-top: 40px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu-left {
+    margin-left: 25px;
+    float: left;
+}
+
+.nav-menu-center {
+    right: 0px;
+    position: absolute;
+    margin-right: 175px;
+    font-size: 21px;
+
+}
+
+.navigate-list {
+    display: flex;
+}
+
+.nav-menu-right {
+    flex: right ;
+}
+
+.img-search-contain {
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;;
+}
+
+.navigate-element:not(:last-child){
+    margin-right: 80px;;
+}
+
+.Title-contain {
+    position: absolute;
+    right: 425px;
+    top: 280px;
+}
+
+.first-text-text {
+    color: white;
+    font-size: 21px;
+}
+
+.first-text-text p {
+    position: absolute;
+    right: 195px;
+    top: 440px;
+}
+
+.first-block-btn-btn {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255,189,61);
+    border: 3px solid rgb(255,189,61);;
+    border-radius: 5px;
+    position: absolute;
+    right: 580px;
+    top: 580px;
+}
+
+.first-block-btn-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;;
+}
+
+
+
+.second-block {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.second-block-header-description {
+    font-size: 24px;
+}
+
+
+
+
+.second-block-header-img {
+    width: 262px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.best-food-list {
+    margin-top: 75px;
+    display: flex;     
+    margin-left: auto;
+    margin-right: auto; 
+    width: 67em;
+
+
+}
+
+.second-block-header-description {
+    text-align: center;
+}
+
+.best-food-item {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.best-food-item-2 {
+    margin-left: 150px;
+    margin-right: 150px;
+}
