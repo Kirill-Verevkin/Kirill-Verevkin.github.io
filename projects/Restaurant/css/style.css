@@ -21,7 +21,7 @@ body {
 	top: 0;
 	left: 0;
 	margin: 0px;
-	background: url(../img/back.png) no-repeat center;   
+	background: url(../img/back1.png) no-repeat center;   
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -151,3 +151,326 @@ body {
     margin-left: 150px;
     margin-right: 150px;
 }
+
+
+
+.third-block {
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 80vh;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back2.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+.third-block-content {
+    margin: 0px;
+    padding-bottom: 60px;
+    padding-left: 130px;
+    display: flex;
+}
+
+.third-block-img img {
+    margin-top: 10em;
+    margin-right: 100px;
+}
+
+.third-block-card {
+    margin-top: 250px;
+    color: white;
+    font-size: 18px;
+}
+
+.third-block-description {
+    margin-top: 45px;
+}
+
+.third-block-btn button {
+    margin-top: 80px;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255,189,61);
+    border: 3px solid rgb(255,189,61);;
+    border-radius: 5px;
+    font-size: 24px;
+}
+    
+.third-block-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.fourth-block {
+    min-height: 100vh;
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back3.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+
+.fourht-block-header-img {
+    padding-top: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+
+.fourth-block-description {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.fourth-block-card-list {
+    margin-top: 120px;
+    display: flex;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourth-block-card {
+    padding: 40px;
+    border: 5px solid white;
+    border-radius: 50%;
+    font-size: 34px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+
+.fourth-block-card-numder {
+    color: rgb(255,189,61);
+    font-weight: 900;
+}
+
+
+.fourth-block-card-text {
+    color: white;
+    font-weight: 900;
+}
+
+.fifth-block {
+    display: flex;
+    min-height: 100vh;
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back4.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+.fifth-block-card {
+    margin-top: 220px;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+.fifth-block-btn button {
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(255,189,61);
+    border: 3px solid rgb(255,189,61);;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.fifth-block-description {
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.fifth-block-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.fifth-block-img {
+    margin-right: 100px;
+    margin-top: 230px;
+}
+
+.sixth-block {
+    min-height: 100vh;
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back5.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+
+.sixth-block-text {
+    padding-top: 350px;
+    text-align: center;
+    width: 1200px;
+    font-size: 38px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sixth-block-logo {
+    margin-top: 60px;
+    width: 319px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.seventh-block {
+    min-height: 100vh;
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back6.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.seventh-block-logo  {
+    width: 304px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 55px;
+}
+
+
+.seventh-block-description {
+    text-align: center;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.seventh-block-description p {
+    max-width: 900px;
+    padding-bottom: 50px;
+    font-size: 24px;
+}
+
+
+.seventh-block-input-area {
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    border: 0px;
+    background-color: #f4f4f4;
+}
+
+
+.seventh-block-input-btn {
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255,189,61);
+    border: 3px solid rgb(255,189,61);;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.footer {
+    min-height: 100vh;
+	min-width: 1024px;
+    background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	margin: 0px;
+	background: url(../img/back7.png) no-repeat center;   
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    color: white;
+    display: flex;
+}
+
+.footer  ol {  
+    padding-left: 0px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titlehere-block {
+    margin-top: 300px;
+    margin-left: 150px;
+    max-width: 500px;
+    font-size: 20px;
+}
+
+
+.about-block {
+    margin-left: 200px;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+
+
+.services-block {
+    margin-top: 300px;
+    margin-right: 100px;
+}
+
+.other-block {
+    margin-top: 300px;
+}
+
+
+.social-menu {
+    margin-top: 80px;
+}
+

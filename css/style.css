@@ -1,5 +1,5 @@
 body {
-	width: 100%;
+	width: 100vw;
 	margin: 0px;
 	padding: 0px;
 }
@@ -10,7 +10,7 @@ body {
 
 header {
 	height: 255px;
-	width: 1605px;
+	width: 100vw;
 	background-color: #5a8349;
 	border-bottom: 10px solid #153418;
 	border-radius: 3px;
@@ -44,7 +44,7 @@ main {
 	background-color: #137c8a50;
 	padding: 0px;
 	height: 115%;
-	width: 1605px;
+	width: 100vw;
 	border-top: 10px solid #137c8a;
 	border-bottom: 10px solid #137c8a;
 	padding-bottom: 100px;
@@ -96,7 +96,7 @@ main {
 
 footer {
 	height: 100px;
-	width: 1605px;
+	width: 100vw;
 	border-top: 10px solid #153418;
 	border-bottom: 20px solid #153418;
 	color: #153418;
