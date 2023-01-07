@@ -428,9 +428,8 @@ body {
     }
 
     .skills__card {
+        width: 100%;
         margin-bottom: 80px;
-        margin-right: 25.5px;
-        margin-left: 25.5px;
     }
 
     .skills__card_margin-right {
@@ -483,9 +482,8 @@ body {
     }
 
     .skills__card {
+        width: 100%;
         margin-bottom: 80px;
-        margin-right: 25.5px;
-        margin-left: 25.5px;
     }
 
     .skills__card_margin-right {
