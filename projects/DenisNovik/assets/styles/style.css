@@ -23,6 +23,9 @@ body {
     display: flex;
     justify-content: center;
 }
+.header_mobile {
+    display: none;
+}
 .header__nav-block {
     height: 88px;
 }
@@ -463,10 +466,101 @@ body {
 
     /* ----------------------------------------------------------------------------------------------------------------------------------------- */
     /* header */
-    
+
+    .header_desktop {
+        display: none;
+    }
+    .header_mobile {
+        display: block;
+    }
     .header__img {
         width: 275px;
     }
+    .header__nav-block {
+        display: none;
+        height: 812px;
+    }
+    .header__nav-list {
+        display: block;
+        margin-top: 20px;
+    }
+    .header__nav-link {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 34px;
+        color: #828282;
+    }
+    .header__nav-link_active {
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        line-height: 42px;
+        color: #090909;
+    }
+    .header__nav-block-right {
+        max-width: 25px;
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    .header__nav-btn-hide {
+        display: block;
+        background-image: url('../img/header__nav-btn\(hide\).png');
+        width: 23px;
+        height: 23px;
+        background-repeat: no-repeat;
+        border: 0px;
+        background-color: white;
+        margin-right: 0px;
+        margin-left: auto;
+        margin-top: 66px;
+    }
+    .header__lang-switch-block {
+        margin-top: 511px;
+        padding: 0px;
+        font-family: 'Gilroy-Bold';
+        transform: rotate(90deg);
+    }
+    .header__lang-swith {
+        font-size: 34px;
+        line-height: 42px;
+        color: #828282;
+        width: 150px;
+        margin-right: 0px;
+        margin-left: auto;
+    }
+    .header__hr {
+        display: none;
+    }
+    .header__head-block {
+        max-height: none;
+    }
+    .header__head-block-top {
+        display: flex;
+    }
+    .header__name-block {
+        margin-top: 60px;
+        margin-bottom: 35px;
+    }
+    .header__info-block {
+        margin-top: 0px;
+    }
+    .header__head-block-right {
+        width: 33px;
+        padding-top: 75px;
+        margin-left: 87.7px;
+    }
+    .header__nav-block-btn {
+        display: block;
+    }
+    .header__nav-btn-show {
+        display: block;
+        background-image: url('../img/header__nav-btn\(show\).png');
+        width: 33px;
+        height: 20px;
+        background-repeat: no-repeat;
+        border: 0px;
+        background-color: white;
+    }
+
 
     /* ----------------------------------------------------------------------------------------------------------------------------------------- */
 
