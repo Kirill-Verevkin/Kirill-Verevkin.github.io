@@ -320,7 +320,7 @@ body {
 .contacts__media-link-item {
 }
 .contacts__media-link-item_margin-right {
-    margin-right: 62px;
+    margin-right: auto;
 }
 .contacts__media-link {
 }
